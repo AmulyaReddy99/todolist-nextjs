@@ -1,5 +1,4 @@
 import styles from '../../styles/Home.module.css'
-import Link from 'next/link';
 
 export const getStaticProps = async () => {
     const res = await fetch('https://jsonplaceholder.typicode.com/users');
@@ -17,11 +16,9 @@ const Main = ({ list }) => {
             {
                 list.map(todo =>  (
                     <div key={todo.id}>
-                        <Link href={'/desc/' + todo.id} key={todo.id}>
-                            <a>
-                                { todo.name }
-                            </a>
-                        </Link>
+                        <a>
+                            { todo.name }
+                        </a>
                     </div>
                 ))
             }

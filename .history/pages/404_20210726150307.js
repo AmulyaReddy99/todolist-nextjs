@@ -6,7 +6,7 @@ import styles from '../styles/Home.module.css'
 const NotFound = () => {
     const router = useRouter();
 
-    useEffect   (() => {
+    useEffect(() => {
         setTimeout(() => {
             // router.go(1)
             router.push('/')

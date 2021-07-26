@@ -16,13 +16,11 @@ const Main = ({ list }) => {
             Desc Main
             {
                 list.map(todo =>  (
-                    <div key={todo.id}>
-                        <Link href={'/desc/' + todo.id} key={todo.id}>
-                            <a>
-                                { todo.name }
-                            </a>
-                        </Link>
-                    </div>
+                    <Link href={'/desc/' + todo.id} key={todo.id}>
+                        <a>
+                            { todo.name }
+                        </a>
+                    </Link>
                 ))
             }
         </div>

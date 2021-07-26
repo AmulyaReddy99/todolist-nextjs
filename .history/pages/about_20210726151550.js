@@ -5,8 +5,8 @@ const About = () => {
   return ( 
     <>
       <Head>
-        <title>Todolist | About</title>
-        <meta name="keywords" content="todolist"></meta>
+        <title>Todolist</title>
+        <meta></meta>
       </Head>
       <div className={styles.text}>
         About

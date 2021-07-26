@@ -1,12 +1,11 @@
 import Link from "next/link"
 import { useRouter } from "next/router"
-import { useEffect } from "react";
 import styles from '../styles/Home.module.css'
 
 const NotFound = () => {
     const router = useRouter();
 
-    useEffect   (() => {
+    useEffect(() => {
         setTimeout(() => {
             // router.go(1)
             router.push('/')

@@ -6,7 +6,7 @@ const Header = () => {
         <div>
             <nav>
                 <div className="logo">
-                    <Image src="/logo.png" width={50} height={45} />
+                    <Image src="/logo.png" width={45} height={45} />
                 </div>
                 <Link href="/">Home</Link>
                 <Link href="/about">About</Link>
